@@ -1,6 +1,6 @@
 'use strict';
 
-const BasePage = require('./BasePage').default;
+import BasePage from './BasePage.js';
 
 /**
  * HomePage
@@ -179,4 +179,4 @@ class HomePage extends BasePage {
     }
 }
 
-module.exports = new HomePage();
+export default new HomePage();

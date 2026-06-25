@@ -17,9 +17,9 @@
  *   3. Negative  — boundary / invalid input handled gracefully on mobile
  */
 
-const mobileHomePage    = require('../pages/MobileHomePage');
-const searchResultsPage = require('../../web/pages/SearchResultsPage');
-const testData          = require('../../../helpers/testData');
+import mobileHomePage from '../pages/MobileHomePage.js';
+import searchResultsPage from '../../web/pages/SearchResultsPage.js';
+import testData from '../../../helpers/testData.js';
 
 const ORIGIN      = testData.search.origin;
 const DESTINATION = testData.search.destination;

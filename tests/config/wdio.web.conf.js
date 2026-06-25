@@ -1,7 +1,7 @@
-const { config: base } = require('./wdio.base.conf');
-const path = require('path');
+import { config as base } from './wdio.base.conf.js';
+import path from 'path';
 
-exports.config = {
+export const config = {
   ...base,
   specs: [
     path.resolve(__dirname, '../web/specs/homePage.spec.js'),

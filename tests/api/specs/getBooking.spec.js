@@ -1,6 +1,6 @@
-const { expect } = require('chai');
-const bookingHelper = require('../helpers/bookingHelper');
-const testData = require('../../helpers/testData');
+import { expect } from 'chai';
+import bookingHelper from '../helpers/bookingHelper.js';
+import testData from '../../helpers/testData.js';
 
 describe('GetBooking API', function () {
 	it('should retrieve a created booking by id', async function () {

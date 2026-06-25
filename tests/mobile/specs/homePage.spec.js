@@ -31,7 +31,7 @@
  *                                    on about:blank
  */
 
-const mobileHomePage = require('../pages/MobileHomePage');
+import mobileHomePage from '../pages/MobileHomePage.js';
 
 // Minimum touch-target dimension recommended by WCAG 2.5.5
 const MIN_TOUCH_PX = 44;

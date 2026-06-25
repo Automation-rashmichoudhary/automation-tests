@@ -1,9 +1,10 @@
-const envConfig = require('../helpers/envConfig');
+import envConfig from '../helpers/envConfig.js';
+import { expect } from 'chai';
 
-exports.config = {
+export const config = {
   baseUrl: envConfig.BASE_URL,
   framework: 'mocha',
   mochaOpts: { timeout: 30000 },
   reporters: ['spec'],
-  before: () => { global.expect = require('chai').expect; }
-}
+  before: () => { global.expect = expect; }
+};

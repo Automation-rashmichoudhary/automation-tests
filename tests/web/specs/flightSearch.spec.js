@@ -1,8 +1,8 @@
 'use strict';
 
-const homePage         = require('../pages/HomePage');
-const searchResultsPage = require('../pages/SearchResultsPage');
-const testData          = require('../../helpers/testData');
+import homePage from '../pages/HomePage.js';
+import searchResultsPage from '../pages/SearchResultsPage.js';
+import testData from '../../helpers/testData.js';
 
 /**
  * Suite: Flight search

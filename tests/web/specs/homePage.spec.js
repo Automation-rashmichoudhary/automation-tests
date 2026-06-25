@@ -1,7 +1,7 @@
 'use strict';
 
-const homePage   = require('../pages/HomePage');
-const testData   = require('../../helpers/testData');
+import homePage from '../pages/HomePage.js';
+import testData from '../../helpers/testData.js';
 
 /**
  * Suite: Homepage UI validation

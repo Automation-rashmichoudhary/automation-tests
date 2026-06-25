@@ -1,7 +1,7 @@
-const { expect } = require('chai');
-const bookingHelper = require('../helpers/bookingHelper');
-const authHelper = require('../helpers/authHelper');
-const testData = require('../../helpers/testData');
+import { expect } from 'chai';
+import bookingHelper from '../helpers/bookingHelper.js';
+import authHelper from '../helpers/authHelper.js';
+import testData from '../../helpers/testData.js';
 
 describe('DeleteBooking API', function () {
 	it('should delete a booking when authenticated and return 404 afterwards', async function () {

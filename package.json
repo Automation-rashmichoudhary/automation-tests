@@ -2,6 +2,7 @@
   "name": "automation-tests",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test:web": "wdio run tests/config/wdio.web.conf.js",
     "test:mobile": "wdio run tests/config/wdio.mobile.conf.js",

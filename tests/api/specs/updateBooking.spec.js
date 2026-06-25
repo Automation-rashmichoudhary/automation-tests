@@ -1,7 +1,7 @@
-const { expect } = require('chai');
-const bookingHelper = require('../helpers/bookingHelper');
-const authHelper = require('../helpers/authHelper');
-const testData = require('../../helpers/testData');
+import { expect } from 'chai';
+import bookingHelper from '../helpers/bookingHelper.js';
+import authHelper from '../helpers/authHelper.js';
+import testData from '../../helpers/testData.js';
 
 describe('UpdateBooking API', function () {
 	it('should update an existing booking when authenticated', async function () {

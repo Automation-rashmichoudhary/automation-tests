@@ -1,6 +1,6 @@
-'use strict';
+"use strict";
 
-import BasePage from './BasePage';
+import BasePage from './BasePage.js';
 
 /**
  * MobileHomePage
@@ -190,4 +190,4 @@ class MobileHomePage extends BasePage {
     }
 }
 
-module.exports = new MobileHomePage();
+export default new MobileHomePage();
